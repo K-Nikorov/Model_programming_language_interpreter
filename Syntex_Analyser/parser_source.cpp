@@ -53,7 +53,7 @@ void Parser::gl() {
     curr_lex = scan.get_lex();
     c_type = curr_lex.get_type();
     c_val = curr_lex.get_val();
-    cout << curr_lex;
+    //cout << curr_lex;
     //if (c_type == LEX_ID) cout << TID[c_val].get_name() << "_; ";
 }
 void Parser::parse_prog(const char* program) {
@@ -242,7 +242,7 @@ void Parser::V_comp_type(bool in_struc) {
     if ( !TID[c_val].get_declare() ) {
         TID[c_val].put_type(last_struc+LEX_LAST_IN_LIST);
         TID[c_val].put_declare();
-        cout << "Name of struct: " << TID[c_val].get_name() << endl;
+        //cout << "Name of struct: " << TID[c_val].get_name() << endl;
         copy_struct(c_val, last_struc);
         TID[c_val].put_assign();
         /*prog.put_lex(Lex(POLIZ_ADDRESS, c_val));

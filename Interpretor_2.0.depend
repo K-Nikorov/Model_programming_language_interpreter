@@ -147,7 +147,7 @@
 	"lex_analyser_header.h"
 	"../common.h"
 
-1618502693 source:c:\users\Кирилл\interpretor_2.0\main.cpp
+1618503858 source:c:\users\Кирилл\interpretor_2.0\main.cpp
 	"main_header.h"
 	"common.h"
 
@@ -167,7 +167,7 @@
 	"scanner_header.h"
 	"../common.h"
 
-1618501200 source:c:\users\Кирилл\interpretor_2.0\syntex_analyser\parser_source.cpp
+1618504482 source:c:\users\Кирилл\interpretor_2.0\syntex_analyser\parser_source.cpp
 	"parser_header.h"
 	"../common.h"
 

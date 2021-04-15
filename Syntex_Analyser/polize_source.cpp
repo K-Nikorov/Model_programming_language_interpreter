@@ -24,6 +24,6 @@ Lex& Poliz::operator[](int k) {
     return p[k];
 }
 void Poliz::print() {
-    for (int i=0; i < free; ++i) cout << p[i];
+    //for (int i=0; i < free; ++i) cout << p[i];
 }
 
