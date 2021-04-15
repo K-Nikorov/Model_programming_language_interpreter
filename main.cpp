@@ -11,6 +11,7 @@ int main()
     char prog_char[150];
     char c;
     int cur_ind_progname = 0;
+    cout << "Input the path to your model program:\n";
     c = getchar();
     prog_char[0] = c;
     ++cur_ind_progname;
