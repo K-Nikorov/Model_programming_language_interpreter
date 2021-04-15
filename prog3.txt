@@ -1,0 +1,28 @@
+^Complex expressions^
+program {
+int i = 0;
+string c = "strstrstrstrstrstrstrstrstrstrstrstrstrstrstrstrstr";
+string s = "";
+bool b = true;
+for (; (i = i + 1) <= 10;)
+	write(i);
+
+i = 1;
+after:
+if (i > 10) {
+	write("After-label");
+	i = 1;
+	goto end;
+}
+while (((s = (s + "str")) < c) and ((i = 2 * i) > 0) or (b = not b)) {
+	write(i); 
+	write(b);
+}
+write(s == c);
+end:
+if (i > 10) {
+	write("Jump");
+	goto after;
+} else write("return");
+}
+@

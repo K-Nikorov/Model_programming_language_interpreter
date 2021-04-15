@@ -1,0 +1,38 @@
+^Operations with structs^
+program {
+struct Man {
+	int age;
+	string name;
+};
+struct Student {
+	string prof;	
+	Man man;
+};
+Man man, woman; 
+Student stud, stud2;
+Man child;
+man.age = 17;
+man.name = "Kirill";
+child.name = "Ricky";
+child.age = 5;
+write("Man's name and age:");
+write(man.name);
+write(man.age);
+write("Child's name and age:");
+write(child.name); write(child.age);
+write("Input student's name, age, and specialisation:");
+read(stud.man.name); read(stud.man.age); read(stud.prof);
+write("They are:"); 
+write(stud.man.name); write(stud.man.age);write(stud.prof);
+stud2 = stud;
+write("The copy of the sudent record:");
+write(stud2.man.name); write(stud2.man.age);write(stud.prof);
+stud.prof = "Gaurder"; stud.man.age = stud.man.age + 5;
+write("");
+write("5 years latter");
+write(stud.man.name); write(stud.man.age);write(stud.prof);
+write("");
+write("Was:");
+write(stud2.man.name); write(stud2.man.age);write(stud2.prof);
+}
+@

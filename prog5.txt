@@ -1,0 +1,18 @@
+^Prog with bad labels^
+program {
+int i = 0;
+int j;
+j = 0;
+while (i < 15) {
+	write("i now is: ");
+	write(i);
+	i = i + 1;
+	write("And j is:");
+	for (j = 0; j < 5; j = j + 1) {
+		write(j);
+		if (i >= 3) break;
+	}
+
+}
+}
+@

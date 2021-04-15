@@ -1,0 +1,20 @@
+^String comparison^
+program {
+string s, c, q, r;
+s = "Hello!";
+c = "How are you?";
+q = "Fine!";
+r = s + " - " + c + " - " + q;
+if (s > c)
+	write(s);
+else 
+	if (q <= c)
+		write(q);
+	else 
+		write(c);
+if (r == (s = s + " - " + c + " - " + q))
+	write("They " + "are " + "equal");
+else
+	write("They " + "are " + "different");
+}
+@

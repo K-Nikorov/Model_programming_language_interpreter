@@ -1,0 +1,17 @@
+^Prog with break out of cycle^
+program {
+int a = 12;
+int d = 5;
+while ((a < 5) or (a > 10)) {
+	a = a - 1;
+	write(a);
+}
+#break;#
+if (d > (a = 3)) {
+	d = d * 2;
+	break;
+}
+write(a);
+write(d);
+}
+@

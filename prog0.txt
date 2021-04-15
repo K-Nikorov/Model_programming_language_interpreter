@@ -1,0 +1,14 @@
+^Different types of structs^
+program {
+struct mn {
+	int a;
+};
+struct pm {
+	int a;
+};
+mn a, c;
+pm b;
+a = b;
+a = c;
+}
+@

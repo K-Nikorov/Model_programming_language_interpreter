@@ -1,0 +1,17 @@
+^Concatenation^
+program {
+struct Man {
+	string name;
+	string surname;
+	string fullname;
+};
+Man man;
+write("Input the name of the man:");
+read(man.name);
+write("Input the surname of the man:");
+read(man.surname);
+man.fullname = man.name + " " + man.surname;
+write("The full name of the man:");
+write(man.fullname);
+}
+@

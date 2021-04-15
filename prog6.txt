@@ -1,0 +1,31 @@
+^Prog without reffered label^
+program {
+int a = 12;
+int d;
+bool b = true;
+string c = "Hi";
+#Here is a 
+short example#
+read(a);
+read(c);
+start:
+while (-5 < -a) {
+	c = "16*25*4";
+	read(a);
+	if (+a <= a) {read(a); break; if (a == a) write(2+3);} else write(9 / 6); 
+	{
+	read(a);
+	goto start;
+	goto end;
+	a; b; ;;;;
+	a + a + d;
+	for (a = 5; a > 3; +a) { read(c); break;}
+	break; break; break;
+label:	for (a = 15; b = true; a = a * 16) read(c);
+	}
+	break;
+}
+endf:
+read(c);
+}
+@

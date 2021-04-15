@@ -1,0 +1,24 @@
+^Multiassignment^
+program {
+struct st {
+	int a, b, c;
+};
+int a, b, c, d, e, f;
+bool z, x, v;
+st u,i,o;
+string q,w,r,t,y;
+
+a = b = c = d = e = f = 1;
+z = x = v = false;
+q = w = r = t = y = "Many";
+t = "Hello";
+
+u.a = 1; u.b = 2; u.c = 16;
+i = o = u;
+
+write(a); write(b); write(c);
+write(z); write(x); write(v); 
+write(q); write(w); write(t);
+write(i.a); write(i.b); write(i.c);
+}
+@

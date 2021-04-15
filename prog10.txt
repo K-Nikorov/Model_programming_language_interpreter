@@ -1,0 +1,8 @@
+^Different types of structs^
+struct mn {
+	int a;
+};
+struct mn {
+	int a;
+};
+mn a;

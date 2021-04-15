@@ -1,0 +1,177 @@
+# depslib dependency file v1.0
+1588963911 source:d:\studing\cpp\interpretor_2.0\lex analyser\lex_analyser_source.cpp
+	"lex_analyser_header.h"
+	"../common.h"
+
+1588963856 d:\studing\cpp\interpretor_2.0\lex analyser\lex_analyser_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+
+1589006281 source:d:\studing\cpp\interpretor_2.0\scanner\scanner_source.cpp
+	"scanner_header.h"
+	"../common.h"
+
+1588761175 d:\studing\cpp\interpretor_2.0\scanner\scanner_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"../Lex Analyser/lex_analyser_header.h"
+
+1618501200 source:d:\studing\cpp\interpretor_2.0\syntex_analyser\parser_source.cpp
+	"parser_header.h"
+	"../common.h"
+
+1589024355 d:\studing\cpp\interpretor_2.0\syntex_analyser\parser_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"polize_header.h"
+
+1589024029 d:\studing\cpp\interpretor_2.0\syntex_analyser\polize_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"../Scanner/scanner_header.h"
+
+1589024153 source:d:\studing\cpp\interpretor_2.0\syntex_analyser\polize_source.cpp
+	"polize_header.h"
+	"../common.h"
+
+1618502618 source:d:\studing\cpp\interpretor_2.0\main.cpp
+	"main_header.h"
+	"common.h"
+
+1588961622 d:\studing\cpp\interpretor_2.0\main_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"Lex Analyser/lex_analyser_header.h"
+	"Scanner/scanner_header.h"
+	"Syntex_Analyser/parser_header.h"
+	"Syntex_Analyser/polize_header.h"
+	"Executer/executer_header.h"
+	"Interpretor/interpretor_header.h"
+
+1588748246 d:\studing\cpp\interpretor_2.0\common.h
+	"Lex Analyser/lex_analyser_header.h"
+
+1588777923 source:d:\studing\cpp\interpretor_2.0\common_source.cpp
+	"common.h"
+
+1589028626 source:d:\studing\cpp\interpretor_2.0\executer\executer_source.cpp
+	"executer_header.h"
+	"../common.h"
+
+1589010526 d:\studing\cpp\interpretor_2.0\executer\executer_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"../Syntex_Analyser/polize_header.h"
+
+1618502651 source:d:\studing\cpp\interpretor_2.0\interpretor\interpretor_source.cpp
+	"interpretor_header.h"
+	"../common.h"
+
+1588961503 d:\studing\cpp\interpretor_2.0\interpretor\interpretor_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"../Syntex_Analyser/parser_header.h"
+	"../Executer/executer_header.h"
+
+1588777923 source:c:\users\Кирилл\interpretor_2.0\common_source.cpp
+	"common.h"
+
+1588748246 c:\users\Кирилл\interpretor_2.0\common.h
+	"Lex Analyser/lex_analyser_header.h"
+
+1588963856 c:\users\Кирилл\interpretor_2.0\lex analyser\lex_analyser_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+
+1589028626 source:c:\users\Кирилл\interpretor_2.0\executer\executer_source.cpp
+	"executer_header.h"
+	"../common.h"
+
+1589010526 c:\users\Кирилл\interpretor_2.0\executer\executer_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"../Syntex_Analyser/polize_header.h"
+
+1589024029 c:\users\Кирилл\interpretor_2.0\syntex_analyser\polize_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"../Scanner/scanner_header.h"
+
+1588761175 c:\users\Кирилл\interpretor_2.0\scanner\scanner_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"../Lex Analyser/lex_analyser_header.h"
+
+1618502651 source:c:\users\Кирилл\interpretor_2.0\interpretor\interpretor_source.cpp
+	"interpretor_header.h"
+	"../common.h"
+
+1588961503 c:\users\Кирилл\interpretor_2.0\interpretor\interpretor_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"../Syntex_Analyser/parser_header.h"
+	"../Executer/executer_header.h"
+
+1589024355 c:\users\Кирилл\interpretor_2.0\syntex_analyser\parser_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"polize_header.h"
+
+1588963911 source:c:\users\Кирилл\interpretor_2.0\lex analyser\lex_analyser_source.cpp
+	"lex_analyser_header.h"
+	"../common.h"
+
+1618502693 source:c:\users\Кирилл\interpretor_2.0\main.cpp
+	"main_header.h"
+	"common.h"
+
+1588961622 c:\users\Кирилл\interpretor_2.0\main_header.h
+	<iostream>
+	<cstring>
+	<stack>
+	<vector>
+	"Lex Analyser/lex_analyser_header.h"
+	"Scanner/scanner_header.h"
+	"Syntex_Analyser/parser_header.h"
+	"Syntex_Analyser/polize_header.h"
+	"Executer/executer_header.h"
+	"Interpretor/interpretor_header.h"
+
+1589006281 source:c:\users\Кирилл\interpretor_2.0\scanner\scanner_source.cpp
+	"scanner_header.h"
+	"../common.h"
+
+1618501200 source:c:\users\Кирилл\interpretor_2.0\syntex_analyser\parser_source.cpp
+	"parser_header.h"
+	"../common.h"
+
+1589024153 source:c:\users\Кирилл\interpretor_2.0\syntex_analyser\polize_source.cpp
+	"polize_header.h"
+	"../common.h"
+
